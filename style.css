@@ -3,6 +3,11 @@ html {
     background-color: rgb(247, 184, 255);
 }
 
+h1 {
+    background: -webkit-linear-gradient(#ff2ce3, #4b3eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 #main_div {
     background-color: white;
