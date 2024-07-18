@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    background-color: aquamarine;
+    background-color: rgb(247, 184, 255);
 }
 
 #main_div {
@@ -10,3 +10,27 @@ html {
     border-radius: 16px;
     width: fit-content;
 }
+
+a:link {
+    color: rgb(212, 0, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(55, 0, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(255, 0, 179);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(151, 55, 103);
+    background-color: transparent;
+    text-decoration: underline;
+  }
