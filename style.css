@@ -20,7 +20,7 @@ h1 {
     border-radius: 16px;
     padding: 16px;
     margin: 16px;
-    width: fit-content;
+    width: max-content;
 }
 
 .table {
