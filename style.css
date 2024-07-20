@@ -9,7 +9,7 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-#main_div {
+.main_div {
     background-color: white;
     border-style: solid;
     border-color: white;
@@ -19,9 +19,23 @@ h1 {
     width: fit-content;
 }
 
-.ascii_art {
+.table {
+    padding: 16px;
+    width: fit-content;
+}
+
+.table_div {
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 16px;
+    width: fit-content;
+    display: table-cell;
+    padding: 16px;
+}
+
+#webring {
     font-family: monospace;
-    white-space: pre;
 }
 
 a:link {
@@ -46,4 +60,11 @@ a:active {
     color: rgb(151, 55, 103);
     background-color: transparent;
     text-decoration: underline;
+}
+
+.container{
+    display: flex;
+}
+.fit{
+    width: fit-content;
 }
