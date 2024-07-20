@@ -3,6 +3,10 @@ html {
     background-color: rgb(247, 184, 255);
 }
 
+body {
+    font-size: 100%;
+}
+
 h1 {
     background: -webkit-linear-gradient(#ff2ce3, #4b3eff);
     -webkit-background-clip: text;
@@ -36,6 +40,7 @@ h1 {
 
 #webring {
     font-family: monospace;
+    font-size: 1em;
 }
 
 a:link {
